@@ -1,0 +1,143 @@
+:root {
+  /*  ui颜色规范 */
+  /*   主题色 */
+  --primary-color: #1f5adb;
+  --body-bg-color: #0b0b1e;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-color: #fff;
+  --button-bg: linear-gradient(0deg, #1f5adb, #1f5adb), #2b44b0;
+  --button-color: #fff;
+  --button-bg-hover: linear-gradient(0deg, #1f5adb, #2b44b0), #1b339f;
+  --title-split-line: rgba(255, 255, 255, 0.12);
+  --title-split-bg: #1f5adb;
+  --title-color: #fff;
+  --desc-color: rgba(255, 255, 255, 0.8);
+
+  /*  header */
+  --header-gradient: #0b122a;
+  --header-sub-menu-gradient: #0b122a;
+
+  --header-item-right: 12px;
+  --h5-header-gradient: #0b0b1e;
+  --header-text-color: rgba(255, 255, 255, 0.6);
+  --header-text-hover-color: #1f5adb;
+
+  /* footer */
+  --footer-bg-color: #0b122a;
+  /* --footer-desc: #7e7e7e;
+  --footer-link: #7e7e7e; */
+  --footer-desc: var(--desc-color);
+  --footer-link: var(--desc-color);
+  --footer-border-color: var(--border-color);
+
+  /*  banner */
+  --banner-title-gradient: linear-gradient(271.52deg, #c63b40 39.59%, #1d70e7 77.03%);
+  /* --banner-desc-dot-color: #e1e1e1; */
+  /*  */
+  /*  导航 */
+  --nav-background: rgba(28, 32, 47, 0.8);
+  --nav-box-shadow: none;
+  --nav-contact-item-line: rgba(255, 255, 255, 0.1);
+  --nav-contact-bg: rgba(0, 0, 0, 0.12);
+  --nav-contact-border: 1px solid rgba(255, 255, 255, 0.24);
+  /*  奖池 */
+  --jackpot-border-color: var(--border-color);
+  --jackpot-thead: #191c2c;
+  --jackpot-even: #191c2c;
+  --jackpot-odd: #1f2539;
+  --tfoot-color: #fff;
+
+  /*  体育产品表格 */
+  --panel-opacity-gradient: rgba(255, 255, 255, 0.05);
+
+  /* 滚动条颜色 */
+  --scrollbar-color: rgba(255, 255, 255, 0.2);
+  /* 滚动条thumb颜色 */
+  --scrollbar-thumb-color: #1f5adb;
+  /* 滚动条thumb-hover颜色 */
+  --scrollbar-thumb-hover-color: #2b44b0;
+
+  /* 产品 */
+  --products-bg-color: #0b122a;
+  /* 为什么选择 */
+  --choose-bg-color: #0b0b1e;
+  --choose-desc-color: var(--desc-color);
+
+  /*  预览 */
+  --preview-bg-color: #0b122a;
+
+  /*  常见问题 */
+  --question-bg-color: #0b0b1e;
+  --question-round-color: linear-gradient(0deg, #1f5adb, #1f5adb), #2b44b0;
+  --question-desc-color: var(--desc-color);
+
+  /*  用户反馈 */
+  --feedback-bg-color: #0b122a;
+  --feedback-desc-color: var(--desc-color);
+
+  /*  玩法介绍 */
+  --playMethods-bg-color: #0b0b1e;
+  --playMethods-content-bg-color: rgba(28, 32, 47, 0.8);
+  --playMethods-project-bg-color: #1e2337;
+  --playMethods-project-row-color: #1f5adb;
+  --playMethods-h5-project-bg-color: #1e2337;
+
+  /*  动态 */
+  --dynamic-bg-color: #0b122a;
+  --dynamic-desc-color: var(--desc-color);
+  --dynamic-panel-gradient: #0b0b1e;
+
+  /*  story */
+  --story-bg-color: #0b0b1e;
+  --story-module-bg-color-hover: #0b122a;
+  --story-item-title-bg:
+    linear-gradient(180deg, rgba(31, 40, 51, 0.1) 1.61%, #1f2833 80.09%),
+    linear-gradient(180deg, rgba(130, 116, 103, 0) 0%, #827467 80.09%);
+
+  /* sitemap page bg  */
+  --sitemap-module-bg-color: #0b122a;
+
+  /*  story list page */
+  --story-page-bg-color: none;
+  --story-page-module-bg-color: #0b122a;
+
+  /*  download */
+  --download-scan-text-color: none;
+
+  /*  H5 */
+  /* 通用module  */
+  --h5-footer-copyright-bg-color: #20283b;
+  /* footer nav item color  */
+  /* --h5-footer-nav-item-color: var(--desc-color); */
+  /* footer nav item bg   */
+  --h5-footer-nav-item-bg-color: #20283b;
+
+  /* 图标 */
+  --service1: url('/GA/service1.png');
+  --banner_1: url('/GA/banner_1.jpg');
+  --tips: url('/GA/site/tips.png');
+
+  --group: url('/GA/post-bg.png');
+
+  --icon_expand: url('/GA/icon_expand.png');
+  --icon_putaway: url('/GA/icon_putaway.png');
+
+  --tab_01_nor: url('/GA/tutorial/tab_01_nor.png');
+  --tab_01_sel: url('/GA/tutorial/tab_01_sel.png');
+  --tab_02_nor: url('/GA/tutorial/tab_02_nor.png');
+  --tab_02_sel: url('/GA/tutorial/tab_02_sel.png');
+  --tab_03_nor: url('/GA/tutorial/tab_03_nor.png');
+  --tab_03_sel: url('/GA/tutorial/tab_03_sel.png');
+  --tab_04_nor: url('/GA/tutorial/tab_04_nor.png');
+  --tab_04_sel: url('/GA/tutorial/tab_04_sel.png');
+  --tab_05_nor: url('/GA/tutorial/tab_05_nor.png');
+  --tab_05_sel: url('/GA/tutorial/tab_05_sel.png');
+
+  --icon_time: url('/GA/icon_time.png');
+  --article_read_eyes: url('/GA/articleReadEyes.png');
+
+  --official_bg: url('/GA/download/official_bg.png');
+  --arrow: url('/GA/download/arrow.png');
+  --ios_icon: url('/GA/download/ios.png');
+  --log_corner: url('/GA/download/log_corner.png');
+}
